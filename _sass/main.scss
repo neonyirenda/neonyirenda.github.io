@@ -35,7 +35,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
         url(/assets/images/katsuma-tanaka-WBOhN_aLJVc-unsplash.jpg);
     width: 100%;
-    height: 100vh;
+    height:100vh;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -69,6 +69,17 @@ ul.list-style-none li {
 footer {
     position: absolute;
     bottom: 0px;
+}
+
+/* Index Text Blinking "." */
+.blink {
+    animation: blinker 5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
 
 /*  

@@ -69,6 +69,16 @@ footer {
   bottom: 0px;
 }
 
+/* Index Text Blinking "." */
+.blink {
+  animation: blinker 5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 /*  
  *
  * Lusaka Findeco Rail line Photo by <a href="https://unsplash.com/@kt2080?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">katsuma tanaka</a> on <a href="https://unsplash.com/s/photos/Lusaka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
