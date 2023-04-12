@@ -1,0 +1,29 @@
+---
+title: Staff
+---
+
+<div class="col-md-6">
+    <h2 class="text-white fw-bold display-3">Sta<span class="theme-text">ff</span></h1>
+</div>
+<!-- <div class="col-md-6">
+    {% for authors in site.authors %}
+    <li>
+        <h4><a href="{{ author.url }}">{{ author.name }}</a></h4>
+        <h5>{{ author.position }}</h5>
+        <p>{{ author.content | markdownify }}
+    </li>
+    {% endfor %}
+</div> -->
+
+<div class="col-md-6 text-white">
+    
+        <ul>
+            {% for author in site.authors %}
+            <li>
+                <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+                <h3>{{ author.position }}</h3>
+                <p>{{ author.content | markdownify }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+</div>

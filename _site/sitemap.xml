@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/authors/neo.html</loc>
+<lastmod>2023-04-12T01:17:18+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2023/04/11/the-journey.html</loc>
+<lastmod>2023-04-11T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2023/04/11/the-real-about-me.html</loc>
+<lastmod>2023-04-11T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2023/04/11/things-you-should-probably-know.html</loc>
+<lastmod>2023-04-11T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/about.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/contact.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/my_services.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/staff.html</loc>
+</url>
+</urlset>

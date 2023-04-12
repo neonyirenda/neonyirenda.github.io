@@ -1,0 +1,18 @@
+---
+title: Blog
+---
+<div class="col-md-6">
+    <h1 class="text-white fw-bold display-3">Latest <span class="theme-text">Posts</span></h1>
+</div>
+
+
+<ul class="text-white list-style-none">
+    {% for post in site.posts %}
+    <li>
+        <h3><a class="text-white text-decoration-none" href="{{ post.url }}">{{ post.title }}</a></h3>
+        <h6>{{ post.excerpt }}</h6>
+        <a class="btn btn-custom text-white" href="{{ post.url }}">Read More</a>
+    </li>
+    {% endfor %}
+</ul>
+
