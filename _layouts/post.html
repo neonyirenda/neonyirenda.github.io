@@ -1,24 +1,26 @@
 ---
 layout: default
 ---
-<div class="col-md-6">
-    <h1 class="fw-bold display-3">
-        <span class="text-white">{{ page.title | split: " " | slice: 0, 3 | join: " " }}</span>
-        <span class="theme-text">{{ page.title | split: " " | slice: 3, 100 | join: " " }}</span>
-    </h1>
-</div>
+<div class="d-flex flex-row justify-content-between flex-wrap">
+    <div class="col-md-3">
+        <h1 class="fw-bold display-3">
+            <span class="text-white">{{ page.title | split: " " | slice: 0, 3 | join: " " }}</span>
+            <span class="theme-text">{{ page.title | split: " " | slice: 3, 100 | join: " " }}</span>
+        </h1>
+    </div>
 
 
-<div class="col-md-6">
-    <p class="text-white">
-        {{ page.date | date_to_string }}
-        {% assign author = site.authors | where: 'short_name', page.author | first %}
-        {% if author %}
-        - <a class="text-white text-decoration-none" href="{{ author.url }}">{{ author.short_name }}</a>
-        {% endif %}
-    </p>
+    <div class="col-md-9">
+        <p class="text-white">
+            {{ page.date | date_to_string }}
+            {% assign author = site.authors | where: 'short_name', page.author | first %}
+            {% if author %}
+            - <a class="text-white text-decoration-none" href="{{ author.url }}">{{ author.short_name }}</a>
+            {% endif %}
+        </p>
 
-<h5 class="text-white">
-{{ content }}
-</h5>
+    <h5 class="text-white">
+    {{ content }}
+    </h5>
+    </div>
 </div>
