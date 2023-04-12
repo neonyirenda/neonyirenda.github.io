@@ -8,6 +8,6 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
 end
 
-domain: neonyirenda.github.io
-url: https://neonyirenda.github.io
-baseurl: /neonyirenda.github.io/
+# domain: neonyirenda.github.io
+# url: https://neonyirenda.github.io
+# baseurl: /neonyirenda.github.io/
