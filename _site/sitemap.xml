@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/authors/neo.html</loc>
-<lastmod>2023-04-12T08:40:44+02:00</lastmod>
+<lastmod>2023-04-12T09:56:24+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/2023/04/11/the-journey.html</loc>
@@ -13,7 +13,7 @@
 <lastmod>2023-04-11T00:00:00+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2023/04/11/things-you-should-probably-know.html</loc>
+<loc>http://localhost:4000/2023/04/11/things-you-would-probably-know.html</loc>
 <lastmod>2023-04-11T00:00:00+02:00</lastmod>
 </url>
 <url>

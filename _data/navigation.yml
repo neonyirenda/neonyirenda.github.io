@@ -2,9 +2,7 @@
   link: /
 - name: My Services
   link: /my_services.html
-- name: Contact
-  link: /contact.html
-- name: About
-  link: /about.html
 - name: Blog
   link: /blog.html
+- name: About
+  link: /about.html

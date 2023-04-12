@@ -22,13 +22,18 @@
 .active {
     color: var(--main-color) !important;
     border-bottom: 3px solid var(--main-color);
-    border-top: 3px solid var(--main-color);
+    // border-top: 3px solid var(--main-color);
 }
 
 .navbar ul li a:hover {
     color: var(--main-color) !important;
     border-bottom: 3px solid var(--main-color);
-    border-top: 3px solid var(--main-color);
+    // border-top: 3px solid var(--main-color);
+}
+body{
+    background-color:#020202;
+    color:white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -47,7 +52,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .middle h1 {
