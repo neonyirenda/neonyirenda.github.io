@@ -8,5 +8,6 @@
 
 ###### AUTHOR
 
-    [NÉO GEORGE NYIRENDA](https://neonyirenda.github.io)
-    Landing Page
+[NÉO GEORGE NYIRENDA](https://neonyirenda.github.io)
+
+Landing Page
