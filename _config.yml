@@ -19,7 +19,9 @@ defaults:
       layout: "default"
 
 excerpt_length: 100
-excerpt_separator: <!--more-->
+excerpt_separator: <!--more--> 
+
+url: "https://neonyirenda.github.io"
 
 plugins:
   - jekyll-feed
