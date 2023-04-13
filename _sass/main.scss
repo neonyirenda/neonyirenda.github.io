@@ -9,6 +9,7 @@
 
 :root {
     --main-color: #32cd32;
+    --main-color-ten: #2db82d;
 }
 
 .theme-text {
@@ -21,15 +22,40 @@
 
 .active {
     color: var(--main-color) !important;
-    border-bottom: 3px solid var(--main-color);
-    // border-top: 3px solid var(--main-color);
+    // have the bar stay 100% on the active
+
 }
 
-.navbar ul li a:hover {
+.navbar ul li a {
+    position: relative;
+    /* Set the position to relative to allow absolute positioning of the border */
+    // width: 100%;
+}
+
+.navbar ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--main-color);
+    color: var(--main-color);
+    transition: width 0.2s ease-in-out;
+    /* Set the transition effect to the width property only */
+}
+
+.navbar ul li a:hover::before {
+    width: 100%;
+    /* Increase the width to 100% on hover */
+}
+
+/* .navbar ul li a:hover {
     color: var(--main-color) !important;
     border-bottom: 3px solid var(--main-color);
     // border-top: 3px solid var(--main-color);
-}
+} */
+
 body{
     background-color:#020202;
     color:white;
@@ -54,18 +80,29 @@ body{
     align-items: center;
     margin-top: 50px;
 }
+.post {
+    height: 80vh;
+    width: 80%;
+    // display: flex;
+    // justify-content: end;
+    // align-items: center;
+    margin-top: 50px;
+}
 
 .middle h1 {
     font-size: 70px;
 }
 
 .btn-custom {
-    background-color: var(--main-color);
-    transition: background-color 0.2s ease-in-out;
-}
 
-.btn-custom:hover {
-    background-color: darken #32cd32, 10%;
+--bs-btn-font-weight: 600;
+--bs-btn-color: var(--main-color);
+--bs-btn-bg: var(--main-color);
+--bs-btn-border-color: var(--main-color);
+
+--bs-btn-hover-color: var(--main-color-ten);
+--bs-btn-hover-bg: var(--main-color-ten);
+--bs-btn-hover-border-color: var(--main-color-ten);
 }
 
 ul.list-style-none li {

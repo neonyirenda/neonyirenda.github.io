@@ -1,26 +1,33 @@
 ---
 layout: default
 ---
+<div class="post">
+    <div class="d-flex flex-row justify-content-between flex-wrap">
+        <div class="col-md-2" style="padding-bottom: 50px">
+            <h1 class="fw-bold display-3">
+                <span class="text-white">{{ page.title | split: " " | slice: 0, 3 | join: " " }}</span>
+                <span class="theme-text">{{ page.title | split: " " | slice: 3, 100 | join: " " }}</span>
+            </h1>
+        </div>
+        <div class="col-md-2">
+            <!-- Put a bar here some time -->
+        </div>
+        <div class="col-md-8">
+            <p class="text-white">
+                {{ page.date | date_to_string }}
+                {% assign author = site.authors | where: 'short_name', page.author | first %}
+                {% if author %}
+                - <a class="text-white text-decoration-none" href="{{ author.url }}">{{ author.short_name }}</a>
+                {% endif %}
+            </p>
 
-<div class="middle d-flex flex-row justify-content-between flex-wrap">
-    <div class="col-md-6" style="padding-bottom: 50px">
-        <h1 class="fw-bold display-3">
-            <span class="text-white">{{ page.title | split: " " | slice: 0, 3 | join: " " }}</span>
-            <span class="theme-text">{{ page.title | split: " " | slice: 3, 100 | join: " " }}</span>
-        </h1>
-    </div>
+            <h5 class="text-white">
+                {{ content }}
+            </h5>
 
-    <div class="col-md-8">
-        <p class="text-white">
-            {{ page.date | date_to_string }}
-            {% assign author = site.authors | where: 'short_name', page.author | first %}
-            {% if author %}
-            - <a class="text-white text-decoration-none" href="{{ author.url }}">{{ author.short_name }}</a>
-            {% endif %}
-        </p>
-
-        <h5 class="text-white">
-            {{ content }}
-        </h5>
+            <div class="d-grid justify-content-md-end">
+                <a class="btn btn-custom text-white" href="/blog.html">Back</a>
+            </div>
+        </div>
     </div>
 </div>
