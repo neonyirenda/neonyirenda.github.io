@@ -17,7 +17,8 @@ URL in The Author Section
    2. [x] Overall UI
 2. [x] Jekyll
 3. [x] Jinja Scripting
-4. [ ] Fix Mobile Experience
+4. [x] Fix Mobile Experience
+5. [ ] Add Footer
 
 ###### AUTHOR
 
