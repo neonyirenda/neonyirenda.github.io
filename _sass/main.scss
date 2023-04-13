@@ -50,11 +50,6 @@
     /* Increase the width to 100% on hover */
 }
 
-/* .navbar ul li a:hover {
-    color: var(--main-color) !important;
-    border-bottom: 3px solid var(--main-color);
-    // border-top: 3px solid var(--main-color);
-} */
 
 body{
     background-color:#020202;
@@ -130,3 +125,20 @@ footer {
  * Lusaka Findeco Rail line Photo by <a href="https://unsplash.com/@kt2080?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">katsuma tanaka</a> on <a href="https://unsplash.com/s/photos/Lusaka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
  *
  */
+
+ /*
+  *
+  * The first part of the code imports the "Poppins" font from Google Fonts and sets it as the default font for the website. It also sets the default margin,padding, and box-sizing for all elements on the page. 
+  * The :root selector defines two custom CSS variables for the main color of the website. 
+  * The ".theme-text" class sets the color of the text to the main color. 
+  * The ".navbar-brand" class sets the color of the navbar brand to the main color. 
+  * The ".active" class sets the color of the active link in the navbar to the main color. 
+  * The ".navbar ul li a" selector positions the links relative to their container, and the ".navbar ul li a::before" selector adds a bottom border to the links. The width of the border increases to 100% on hover. 
+  * The "body" selector sets the background color of the body to black and the color of the text to white. 
+  * The ".header" class sets the background image of the header to a linear gradient and an image. 
+  * The ".middle" class and ".post" class are used to set the height and width of the middle section and the post section respectively. 
+  * The ".btn-custom" class defines custom Bootstrap button properties using CSS variables. 
+  * The "ul.list-style-none li" selector removes the bullet points from the list items. 
+  * the "footer" selector positions the footer at the bottom of the page.
+  * 
+  */
