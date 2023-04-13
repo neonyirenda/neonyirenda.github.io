@@ -14,7 +14,7 @@ title: Blog
     <ul class="text-white list-style-none">
         {% for post in site.posts %}
         <li>
-            <h3><a class="text-white text-decoration-none" href="{{ post.url }}">{{ post.title }}</a></h3>
+            <h3><a class="theme-text text-decoration-none" href="{{ post.url }}">{{ post.title }} <br><sub class="text-white">{{ post.date | date_to_string }}</sub></a></h3>
             <h6>{{ post.excerpt }}</h6>
             <div class="d-grid justify-content-md-end">
                 <a class="btn btn-custom text-white" href="{{ post.url }}">More</a>
