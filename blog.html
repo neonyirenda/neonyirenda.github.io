@@ -14,7 +14,9 @@ title: Blog
         <li>
             <h3><a class="text-white text-decoration-none" href="{{ post.url }}">{{ post.title }}</a></h3>
             <h6>{{ post.excerpt }}</h6>
-            <a class="btn btn-custom text-white" href="{{ post.url }}">Read More</a>
+            <div class="d-grid justify-content-md-end">
+                <a class="btn btn-custom text-white" href="{{ post.url }}">More</a>
+            </div>
         </li>
         {% endfor %}
     </ul>
