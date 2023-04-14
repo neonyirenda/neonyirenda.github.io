@@ -26,10 +26,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 {% for item in site.data.navigation %}
+                {% if item.name != "_" %}
                 <li class="nav-item">
-                    <a {% if page.url==item.link %}class="nav-link active" aria-current="page" {% else
-                        %}class="nav-link" {% endif %} href="{{ item.link }}">{{ item.name }}</a>
+                    <a {% if page.url==item.link %}class="nav-link active" aria-current="page" {% else %}class="nav-link" {%
+                        endif %} href="{{ item.link }}">{{ item.name }}</a>
                 </li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </div>
