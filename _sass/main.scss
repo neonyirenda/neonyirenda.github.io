@@ -111,7 +111,7 @@ footer {
 
 /* Index Text Blinking "." */
 .blink {
-    animation: blinker 5s linear infinite;
+    animation: blinker 1s infinite;
 }
 
 @keyframes blinker {
@@ -119,6 +119,9 @@ footer {
         opacity: 0;
     }
 }
+
+
+
 
 /*  
  *
