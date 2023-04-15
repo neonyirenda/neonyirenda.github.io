@@ -19,4 +19,7 @@ I'd usually say something Trekky here, so I'll pretend I did, and keep your eyes
 
 _With regards to the Fedora Project link they might have finally been launched when you read this so head on over to their main page [here](https://getfedora.org)_
 
-> **_The Line Between Light And Dark Is So Very Thin. Do You Know Which Side You’re On?_** 🙋🏿‍♂️
+<blockquote>
+  <p>"The Line Between Light And Dark Is So Very Thin. Do You Know Which Side You’re On?"</p>
+  <h5>Uldren Sov</h5>
+</blockquote>🙋🏿‍♂️
