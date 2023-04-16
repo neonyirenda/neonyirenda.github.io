@@ -25,6 +25,9 @@
     // have the bar stay 100% on the active
 
 }
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 .navbar ul li a {
     position: relative;
@@ -55,6 +58,7 @@ body{
     background-color:#020202;
     color:white;
     font-family: 'Poppins', sans-serif;
+    //padding-top: 70px; /* equal to navbar height */
 }
 
 .header {
@@ -104,10 +108,7 @@ ul.list-style-none li {
     list-style: none;
 }
 
-footer {
-    position: absolute;
-    bottom: 0px;
-}
+
 
 /* Index Text Blinking "." */
 .blink {
@@ -119,6 +120,7 @@ footer {
         opacity: 0;
     }
 }
+
 
 
 

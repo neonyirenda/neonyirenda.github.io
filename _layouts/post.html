@@ -1,17 +1,15 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post" style="padding-top: 70px;">
     <div class="d-flex flex-row justify-content-between flex-wrap">
-        <div class="col-md-2" style="padding-bottom: 50px">
+        <div class="col-md-4" style="padding-bottom: 50px">
             <h1 class="fw-bold display-3">
                 <span class="text-white">{{ page.title | split: " " | slice: 0, 2 | join: " " }}</span>
                 <span class="theme-text">{{ page.title | split: " " | slice: 2, 4 | join: " " }}</span>
             </h1>
         </div>
-        <div class="col-md-2">
-            <!-- Put a bar here some time -->
-        </div>
+
         <div class="col-md-8">
             <p class="text-white">
                 {{ page.date | date_to_string }}
@@ -25,7 +23,7 @@ layout: default
                 {{ content }}
             </h5>
 
-            <div class="d-grid justify-content-md-end">
+            <div class="d-grid justify-content-md-end mt-5 mb-5">
                 <a class="btn btn-custom text-white" href="/blog.html">Back</a>
             </div>
         </div>
