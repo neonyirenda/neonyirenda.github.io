@@ -18,8 +18,8 @@ URL in The Author Section
 2. [x] Jekyll
 3. [x] Jinja Scripting
 4. [x] Fix Mobile Experience
-5. [ ] Add Footer
-6. [ ] Nav Bar Stick Fixed Top
+5. [ ] Add Footer *notetoself don't be fancy
+6. [x] Nav Bar Stick Fixed Top
 
 ###### AUTHOR
 
