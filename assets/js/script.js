@@ -48,13 +48,3 @@ function type() {
 }
 
 type();
-
-/* jQuery */
-
-// $(window).scroll(function() {
-//   if ($(document).scrollTop() + $(window).height() >= $(document).height()) {
-//     $('#footer').addClass('show');
-//   } else {
-//     $('#footer').removeClass('show');
-//   }
-// });
