@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
-<div class="post" style="padding-top: 70px;">
-    <div class="d-flex flex-row justify-content-between flex-wrap">
-        <div class="col-md-4" style="padding-bottom: 50px">
+<div style="padding-top: 70px;">
+    <div class="post d-flex flex-row justify-content-between flex-wrap">
+        <div class="col-md-2">
             <h1 class="fw-bold display-3">
                 <span class="text-white">{{ page.title | split: " " | slice: 0, 2 | join: " " }}</span>
                 <span class="theme-text">{{ page.title | split: " " | slice: 2, 4 | join: " " }}</span>
             </h1>
         </div>
-
+        <div class="col-md-2 p-5">
+            
+        </div>
         <div class="col-md-8">
             <p class="text-white">
                 {{ page.date | date_to_string }}
