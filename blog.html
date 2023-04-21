@@ -6,15 +6,16 @@ title: Blog
         <div class="col-md-4">
             <h1 class="text-white fw-bold display-3">Latest <span class="theme-text">Posts</span></h1>
         </div>
-        <div class="col-md-8">
+
+        <div class="col-md-8 pb-5 mb-5 text-end">
             <ul class="text-white list-style-none">
             {% for post in site.posts %}
                 <li>
                     <h3><a class="theme-text text-decoration-none" href="{{ post.url }}">{{ post.title }} <br><sub class="text-white">{{ post.date | date_to_string }}</sub></a></h3>
                     <h6>{{ post.excerpt }}</h6>
-                    <div class="d-grid justify-content-md-end">
+                    <!-- <div class="d-grid justify-content-md-end">
                         <a class="btn btn-custom text-white" href="{{ post.url }}">More</a>
-                    </div>
+                    </div> -->
                 </li>
             {% endfor %}
             </ul>

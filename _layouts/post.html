@@ -8,6 +8,9 @@ layout: default
                 <span class="text-white">{{ page.title | split: " " | slice: 0, 2 | join: " " }}</span>
                 <span class="theme-text">{{ page.title | split: " " | slice: 2, 4 | join: " " }}</span>
             </h1>
+            <div class="d-grid justify-content-md-end mt-5 mb-5">
+                <a class="btn btn-custom text-white" href="/blog.html">Back</a>
+            </div>
         </div>
         <div class="col-md-2 p-5">
             
@@ -25,9 +28,9 @@ layout: default
                 {{ content }}
             </h5>
 
-            <div class="d-grid justify-content-md-end mt-5 mb-5">
+            <!-- <div class="d-grid justify-content-md-end mt-5 mb-5">
                 <a class="btn btn-custom text-white" href="/blog.html">Back</a>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
