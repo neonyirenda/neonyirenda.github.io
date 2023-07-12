@@ -48,3 +48,9 @@ function type() {
 }
 
 type();
+
+
+// in-site back button
+function go_back() {
+    window.history.back();
+}

@@ -1,11 +1,24 @@
----
-title: Neo's Home!
----
-<div class="middle p-4">
-<!-- <h1 class="text-white fw-bold display-3">Let me design<br>your<br><span
-            class="theme-text">web<br>experience</span><span class="blink">|</span></span></h1> -->
-    <h1 class="text-white fw-bold display-3">Let me design<br>your<br><span id="typing-text" class="theme-text"></span><span
-        class="blink">|</span></h1>
+--- 
+title: Neo Nyirenda
+--- 
 
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="middle">
+            <h1 class="text-white fw-bold display-3">Let me design<br>your<br><span id="typing-text" class="theme-text"></span><span
+                class="blink">|</span></h1>
+        </div>
+    </div>
+    <div class="col-md-4 text-center">
+        <div class="middle">            
+            <ul class="list-group">
+                {% for post in site.posts %}
+                    <li class="list-group-item list-group-item-action list-group-item-success">
+                        <a class="text-black" href="{{ post.url }}" style="text-decoration: none;">{{ post.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
 </div>
-{% include footer.html %}
+
